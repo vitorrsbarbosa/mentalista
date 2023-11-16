@@ -3,7 +3,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
 <link rel="stylesheet" href="style.css">
-<title>Imersão DEV</title>
+<title>Imersão</title>
 <script src="app.js"></script>
 </head>
 
@@ -22,11 +22,14 @@
   </a>
 
   <form class="divisoria">
-    <lable for="valorChute">Digite um número entre 1 e 1000:</lable>
-    <input type="number" id="valorChute" step="0.01">
-    <button type="button" onclick="executarJogo()">Chutar</button>
-    <p><span id="resultado"></span></p>
-    <p><span id="contador"></span></p>
+    <center>
+      <label for="valorChute">Digite um número entre 101 e 200:</label>
+      <input type="number" id="valorChute">
+      <button type="button" onclick="executarJogo()">Chutar</button>
+      <p><span id="resultado"></span></p>
+      <p><span id="contador"></span></p>
+      <p><span id="secretNumber"></span></p>
+    </center>
   </form>
 </body>
 
